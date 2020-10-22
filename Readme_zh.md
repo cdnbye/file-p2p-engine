@@ -27,6 +27,11 @@ file-p2p-engine 是一个文件下载器，采用CDNBye的P2P下载技术。
 :-: | :-: | :-: | :-: | :-: | :-: | :-:| :-:| :-:
 WebRTC Datachannel | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ | ✔ |
 
+## 准备工作
+如果文件地址与网页不在同一个域，请确保文件服务器已做好跨域配置。
+<br>
+点击[这里](https://www.cdnbye.com/cn/views/download/usage.html#prepare)了解详情。
+
 ## 集成
 通过script标签引入最新版本：
 ```html

@@ -26,6 +26,11 @@ Compatibility|Chrome | Firefox | macOS Safari| Android Wechat/QQ | Opera | Edge 
 :-: | :-: | :-: | :-: | :-: | :-: | :-:| :-:| :-:
 WebRTC Datachannel | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ | ✔ |
 
+## Prepare
+Make sure your file servers have proper CORS (Cross-origin resource sharing) headers so that data can be fetched across domain.
+<br>
+Click [here](https://p2p.cdnbye.com/en/views/download/usage.html#prepare) for more details.
+
 ## Include
 Include the pre-built script of latest version: 
 ```html
@@ -33,7 +38,7 @@ Include the pre-built script of latest version:
 ```
 
 ## API and Configuration
-See [API.md](https://www.cdnbye.com/en/views/download/API.html)
+See [API.md](https://p2p.cdnbye.com/en/views/download/API.html)
 
 ## Console
 Bind your domain in `https://oms.cdnbye.com`, where you can view p2p-related information.
