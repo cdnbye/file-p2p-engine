@@ -8,7 +8,7 @@
   <a href="https://www.jsdelivr.com/package/npm/cdnbye-file"><img src="https://data.jsdelivr.com/v1/package/npm/cdnbye-file/badge" alt="jsdelivr"></a>
 </p>
 
-file-p2p-engine 是一个 "简化版的Webtorrent"，只支持file格式，更小的体积，不需要磁力链接，极简的API，更高效的节点调度，简单而快乐！
+file-p2p-engine 是一个文件下载器，采用CDNBye的P2P下载技术。
 
 ## 优势
 - 浏览器原生支持，不需要安装任何插件，采用仿BT算法，在线人数越多效果越好
@@ -34,7 +34,7 @@ WebRTC Datachannel | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ | ✔ |
 ```
 
 ## API文档
-参见 [API.md](https://www.cdnbye.com/cn/views/file/API.html)
+参见 [API.md](https://www.cdnbye.com/cn/views/download/API.html)
 
 ## 后台管理系统
 在接入P2P插件后，访问`https://oms.cdnbye.com`，注册并绑定域名，即可查看该域名的P2P流量、在线人数、用户地理分布等信息。

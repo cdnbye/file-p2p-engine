@@ -33,7 +33,7 @@ Include the pre-built script of latest version:
 ```
 
 ## API and Configuration
-See [API.md](https://www.cdnbye.com/en/views/file/API.html)
+See [API.md](https://www.cdnbye.com/en/views/download/API.html)
 
 ## Console
 Bind your domain in `https://oms.cdnbye.com`, where you can view p2p-related information.
