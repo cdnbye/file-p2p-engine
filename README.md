@@ -12,6 +12,7 @@ file-p2p-engine is a file downloader using CDNBye p2p technology.
 ## Features
 - WebRTC data channels for lightweight peer-to-peer communication with no plugins
 - Support downloading any type of file
+- Multiple files can be downloaded at the same time
 - Efficient scheduling policies to enhance the performance of P2P streaming
 - Use IP database to group up peers by ISP and regions
 
