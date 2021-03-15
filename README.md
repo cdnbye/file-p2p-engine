@@ -1,7 +1,7 @@
 **English | [简体中文](Readme_zh.md)**
 
 <h1 align="center"><a href="" target="_blank" rel="noopener noreferrer"><img width="250" src="https://cdnbye.oss-cn-beijing.aliyuncs.com/pic/cdnbye.png" alt="cdnbye logo"></a></h1>
-<h4 align="center">Save Your Bandwidth using WebRTC.</h4>
+<h4 align="center">Let your viewers become your unlimitedly scalable CDN.</h4>
 <p align="center">
   <a href="https://www.npmjs.com/package/cdnbye-file"><img src="https://img.shields.io/npm/v/cdnbye-file.svg?style=flat" alt="npm"></a>
   <a href="https://www.jsdelivr.com/package/npm/cdnbye-file"><img src="https://data.jsdelivr.com/v1/package/npm/cdnbye-file/badge" alt="jsdelivr"></a>
@@ -23,14 +23,14 @@ The first web peer will serve as a seed, if no one else in the same channel.
 ## Browser Support
 WebRTC has already been incorporated into the HTML5 standard and it is broadly deployed in modern browsers. The compatibility of CDNBye depends on the browser support of WebRTC.
 
-Compatibility|Chrome | Firefox | macOS Safari| Android Wechat/QQ | Opera | Edge | IE | iOS Safari | 
+Compatibility|Chrome | Firefox | macOS Safari| Android Wechat/QQ | Opera | Edge | iOS Safari | IE | 
 :-: | :-: | :-: | :-: | :-: | :-: | :-:| :-:| :-:
-WebRTC Datachannel | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ | ✔ |
+WebRTC Datachannel | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ |
 
 ## Prepare
 Make sure your file servers have proper CORS (Cross-origin resource sharing) headers so that data can be fetched across domain.
 <br>
-Click [here](https://p2p.cdnbye.com/en/views/download/usage.html#prepare) for more details.
+Click [here](https://www.hdtvcloud.com/en/views/download/usage.html#prepare) for more details.
 
 ## Include
 Include the pre-built script of latest version: 
@@ -39,7 +39,7 @@ Include the pre-built script of latest version:
 ```
 
 ## API and Configuration
-See [API.md](https://p2p.cdnbye.com/en/views/download/API.html)
+See [API.md](https://www.hdtvcloud.com/en/views/download/API.html)
 
 ## Console
 Bind your domain in `https://oms.cdnbye.com`, where you can view p2p-related information.
@@ -50,7 +50,7 @@ Bind your domain in `https://oms.cdnbye.com`, where you can view p2p-related inf
 - [mp4-p2p-engine](https://github.com/cdnbye/mp4-p2p-engine) - Web Video Delivery Technology with No Plugins for MP4.
 
 ## FAQ
-We have collected some [frequently asked questions](https://p2p.cdnbye.com/en/views/FAQ.html). Before reporting an issue, please search if the FAQ has the answer to your problem.
+We have collected some [frequently asked questions](https://www.hdtvcloud.com/en/views/FAQ.html). Before reporting an issue, please search if the FAQ has the answer to your problem.
 
 ## Contact Us
 Email: service@cdnbye.com
