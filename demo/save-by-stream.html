@@ -1,4 +1,6 @@
-<script src="https://cdn.jsdelivr.net/npm/cdnbye-file@latest"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/cdnbye-file@latest"></script>-->
+<script src="../dist/file-p2p-engine.min.js"></script>
+<button id="$start">Click to save</button>
 <h3>download info:</h3>
 <p id="url"></p>
 <p id="mime"></p>
@@ -7,10 +9,16 @@
 <p id="speed"></p>
 <p id="p2p"></p>
 <script>
+    /*
+    Instead of saving data in client-side storage or in memory then save by blob url. you could now actually create a writable stream directly to the file system.
+    This is accomplished by emulating how a server would instruct the browser to save a file using some response header + service worker
+     */
+
     var url = 'https://huya-w20.huya.com/2027/357649831/1300/e0a4cd303b58bab74f809be7f2d09113.mp4';
 
     var downloader = new P2PEngineFile(url, {
         // logLevel: 'debug',
+        mitm: './mitm.html',  // Create a own man in the middle that installs the service worker in a secure context hosted on github static pages from an iframe.
     })
         .on('metadata', function (source) {
             document.querySelector('#url').innerText = `Url: ${source.getUrl()}`;
@@ -24,23 +32,21 @@
         .on('progress', ratio => {
             document.querySelector('#progress').innerText = `Progress: ${ratio.toFixed(2)}%`
         })
-        .on('speed', speed => {
-            document.querySelector('#speed').innerText = `Speed: ${Math.round(speed/1000)}KB/s`
-        })
-        .on('failed', function (e) {
-            // fallback
-            const a = document.createElement('a');
-            a.download = "test.mp4";
-            a.href = url;
-            document.body.appendChild(a);
-            a.click();
-            a.remove();
-        })
         .on('stats', function (stats) {
             var total = stats.totalHTTPDownloaded + stats.totalP2PDownloaded;
             document.querySelector('#p2p').innerText = `p2p ratio: ${Math.round(stats.totalP2PDownloaded/total*100)}%   saved traffic: ${Math.round(stats.totalP2PDownloaded)}KB upload: ${Math.round(stats.totalP2PUploaded)}KB`;
         })
 
-    downloader.start();
+    $start.onclick = () => {
+        downloader.start();
+
+        downloader.saveByServiceWorkerStream("test.mp4")
+            .then(downloadUrl => {
+                console.warn(`download url ${downloadUrl}`)
+            }).catch(err => {
+            // fallback to blob download, you need to make the fallback strategy by yourself
+            console.error(err)
+        })
+    }
 
 </script>
