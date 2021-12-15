@@ -1,5 +1,5 @@
-<!--<script src="https://cdn.jsdelivr.net/npm/cdnbye-file@latest"></script>-->
-<script src="../dist/file-p2p-engine.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cdnbye-file@latest"></script>
+<!--<script src="../dist/file-p2p-engine.min.js"></script>-->
 <button id="$start">Click to save</button>
 <h3>download info:</h3>
 <p id="url"></p>
@@ -18,7 +18,7 @@
 
     var downloader = new P2PEngineFile(url, {
         // logLevel: 'debug',
-        mitm: './mitm.html',  // Create a own man in the middle that installs the service worker in a secure context hosted on github static pages from an iframe.
+        mitm: './mitm.html',  // Create an own man in the middle that installs the service worker in a secure context hosted on github static pages from an iframe.
     })
         .on('metadata', function (source) {
             document.querySelector('#url').innerText = `Url: ${source.getUrl()}`;
