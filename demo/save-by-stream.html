@@ -18,7 +18,7 @@
 
     var downloader = new P2PEngineFile(url, {
         // logLevel: 'debug',
-        mitm: './mitm.html',  // Create an own man in the middle that installs the service worker in a secure context hosted on github static pages from an iframe.
+        // mitm: './mitm.html',  // Create an own man in the middle that installs the service worker in a secure context hosted on github static pages from an iframe.
     })
         .on('metadata', function (source) {
             document.querySelector('#url').innerText = `Url: ${source.getUrl()}`;
