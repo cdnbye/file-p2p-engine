@@ -1,6 +1,6 @@
 **[English](README.md) | 简体中文**
 
-<h1 align="center"><a href="" target="_blank" rel="noopener noreferrer"><img width="250" src="https://cdnbye.oss-cn-beijing.aliyuncs.com/pic/cdnbye.png" alt="cdnbye logo"></a></h1>
+<h1 align="center"><a href="" target="_blank" rel="noopener noreferrer"><img width="250" src="https://www.cdnbye.com/logo.png" alt="cdnbye logo"></a></h1>
 <h4 align="center">Save Your Bandwidth using WebRTC.</h4>
 <h4 align="center">Web P2P文件下载SDK.</h4>
 <p align="center">
