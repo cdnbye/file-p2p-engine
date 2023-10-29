@@ -31,7 +31,7 @@ WebRTC Datachannel | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ |
 ## Prepare
 Make sure your file servers have proper CORS (Cross-origin resource sharing) headers so that data can be fetched across domain.
 <br>
-Click [here](https://swarmcloud.net/en/views/download/usage.html#prepare) for more details.
+Click [here](https://docs.swarmcloud.net/download) for more details.
 
 ## Include
 Include the pre-built script of latest version: 
@@ -40,7 +40,7 @@ Include the pre-built script of latest version:
 ```
 
 ## API and Configuration
-See [API.md](https://swarmcloud.net/en/views/download/API.html)
+See [API.md](https://docs.swarmcloud.net/download/API)
 
 ## Console
 Bind your domain in `https://oms.cdnbye.com`, where you can view p2p-related information.
@@ -51,7 +51,7 @@ Bind your domain in `https://oms.cdnbye.com`, where you can view p2p-related inf
 - [mp4-p2p-engine](https://github.com/cdnbye/mp4-p2p-engine) - Web Video Delivery Technology with No Plugins for MP4.
 
 ## FAQ
-We have collected some [frequently asked questions](https://swarmcloud.net/en/views/FAQ.html). Before reporting an issue, please search if the FAQ has the answer to your problem.
+We have collected some [frequently asked questions](https://docs.swarmcloud.net/faq). Before reporting an issue, please search if the FAQ has the answer to your problem.
 
 ## Contact Us
 Email: service@cdnbye.com
