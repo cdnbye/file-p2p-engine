@@ -32,7 +32,7 @@ WebRTC Datachannel | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ |
 ## 准备工作
 如果文件地址与网页不在同一个域，请确保文件服务器已做好跨域配置。
 <br>
-点击[这里](https://www.cdnbye.com/cn/views/download/usage.html#prepare)了解详情。
+点击[这里](https://www.cdnbye.com/cn/download/usage.html#prepare)了解详情。
 
 ## 集成
 通过script标签引入最新版本：
@@ -41,7 +41,7 @@ WebRTC Datachannel | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ |
 ```
 
 ## API文档
-参见 [API.md](https://www.cdnbye.com/cn/views/download/API.html)
+参见 [API.md](https://www.cdnbye.com/cn/download/API.html)
 
 ## 后台管理系统
 在接入P2P插件后，访问`https://www.cdnbye.com/oms`，注册并绑定域名，即可查看该域名的P2P流量、在线人数、用户地理分布等信息。
@@ -52,7 +52,7 @@ WebRTC Datachannel | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ |
 - [mp4-p2p-engine](https://github.com/cdnbye/mp4-p2p-engine) - 支持MP4的Web端P2P流媒体方案。
 
 ## FAQ
-我们收集了一些[常见问题](https://www.cdnbye.com/cn/views/FAQ.html)。在报告issue之前请先查看一下。
+我们收集了一些[常见问题](https://www.cdnbye.com/faq.html)。在报告issue之前请先查看一下。
 
 ## 联系我们
 邮箱：service@cdnbye.com
