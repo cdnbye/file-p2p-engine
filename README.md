@@ -1,6 +1,6 @@
 **English | [简体中文](Readme_zh.md)**
 
-<h1 align="center"><a href="" target="_blank" rel="noopener noreferrer"><img width="250" src="https://www.cdnbye.com/logo.png" alt="cdnbye logo"></a></h1>
+<h1 align="center"><a href="" target="_blank" rel="noopener noreferrer"><img width="250" src="https://www.swarmcloud.net/img/logo.png" alt="cdnbye logo"></a></h1>
 <h4 align="center">Let your viewers become your unlimitedly scalable CDN.</h4>
 <p align="center">
   <a href="https://www.npmjs.com/package/cdnbye-file"><img src="https://img.shields.io/npm/v/cdnbye-file.svg?style=flat" alt="npm"></a>
@@ -24,7 +24,7 @@ The first web peer will serve as a seed, if no one else in the same channel.
 ## Browser Support
 WebRTC has already been incorporated into the HTML5 standard and it is broadly deployed in modern browsers. The compatibility of CDNBye depends on the browser support of WebRTC.
 
-Compatibility|Chrome | Firefox | macOS Safari| Android Wechat/QQ | Opera | Edge | iOS Safari | IE | 
+Compatibility|Chrome | Firefox | macOS Safari| Android Wechat/QQ | Opera | Edge | iOS Safari | IE |
 :-: | :-: | :-: | :-: | :-: | :-: | :-:| :-:| :-:
 WebRTC Datachannel | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ |
 
@@ -34,7 +34,7 @@ Make sure your file servers have proper CORS (Cross-origin resource sharing) hea
 Click [here](https://swarmcloud.net/en/views/download/usage.html#prepare) for more details.
 
 ## Include
-Include the pre-built script of latest version: 
+Include the pre-built script of latest version:
 ```html
 <script src="https://cdn.jsdelivr.net/npm/cdnbye-file@latest"></script>
 ```

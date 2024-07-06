@@ -11,6 +11,9 @@
 
     var downloader = new P2PEngineFile(url, {
         // logLevel: 'debug',
+        // trackerZone: 'hk',        // if using Hongkong tracker
+        // trackerZone: 'us',        // if using USA tracker
+        // token: YOUR_TOKEN
     })
         .on('metadata', function (source) {
             document.querySelector('#url').innerText = `Url: ${source.getUrl()}`;

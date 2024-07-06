@@ -1,6 +1,6 @@
 **[English](README.md) | 简体中文**
 
-<h1 align="center"><a href="" target="_blank" rel="noopener noreferrer"><img width="250" src="https://www.cdnbye.com/logo.png" alt="cdnbye logo"></a></h1>
+<h1 align="center"><a href="" target="_blank" rel="noopener noreferrer"><img width="250" src="https://www.swarmcloud.net/img/logo.png" alt="cdnbye logo"></a></h1>
 <h4 align="center">Save Your Bandwidth using WebRTC.</h4>
 <h4 align="center">Web P2P文件下载SDK.</h4>
 <p align="center">
@@ -25,7 +25,7 @@ file-p2p-engine 是一个文件下载器，采用CDNBye的P2P下载技术。
 ## 浏览器支持情况
 由于WebRTC已成为HTML5标准，目前大部分主流浏览器都已经支持。
 
-兼容性|Chrome | Firefox | macOS Safari| 安卓微信/QQ | Opera | Edge | iOS Safari | IE | 
+兼容性|Chrome | Firefox | macOS Safari| 安卓微信/QQ | Opera | Edge | iOS Safari | IE |
 :-: | :-: | :-: | :-: | :-: | :-: | :-:| :-:| :-:
 WebRTC Datachannel | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ |
 
