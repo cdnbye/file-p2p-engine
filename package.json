@@ -1,15 +1,12 @@
 {
-  "name": "@swarmcloud/file",
-  "version": "0.5.4",
+  "name": "cdnbye-file",
+  "version": "0.5.5",
   "description": "Let your viewers become your unlimitedly scalable CDN.",
   "main": "./dist/file-p2p-engine.min.js",
   "types": "./dist/file-p2p-engine.min.d.ts",
   "files": [
     "dist"
   ],
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "git-push": "git add demo && git add package.json && git add README.md && git add Readme_zh.md && git commit -m 'release v0.5.3' && git push origin master",
     "git-pull": "git pull origin master",
