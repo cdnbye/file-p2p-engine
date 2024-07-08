@@ -4,8 +4,8 @@
 <h4 align="center">Save Your Bandwidth using WebRTC.</h4>
 <h4 align="center">Web P2P文件下载SDK.</h4>
 <p align="center">
-  <a href="https://www.npmjs.com/package/cdnbye-file"><img src="https://img.shields.io/npm/v/cdnbye-file.svg?style=flat" alt="npm"></a>
-  <a href="https://www.jsdelivr.com/package/npm/cdnbye-file"><img src="https://data.jsdelivr.com/v1/package/npm/cdnbye-file/badge" alt="jsdelivr"></a>
+  <a href="https://www.npmjs.com/package/@swarmcloud/file"><img src="https://img.shields.io/npm/v/@swarmcloud/file.svg?style=flat" alt="npm"></a>
+  <a href="https://www.jsdelivr.com/package/npm/@swarmcloud/file"><img src="https://data.jsdelivr.com/v1/package/npm/@swarmcloud/file/badge" alt="jsdelivr"></a>
 </p>
 
 file-p2p-engine 是一个文件下载器，采用CDNBye的P2P下载技术。
@@ -37,7 +37,7 @@ WebRTC Datachannel | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ✔ | ❌ |
 ## 集成
 通过script标签引入最新版本：
 ```html
-<script src="https://cdn.jsdelivr.net/npm/cdnbye-file@latest"></script>
+<script src="https://cdn.jsdelivr.net/npm/@swarmcloud/file@latest"></script>
 ```
 
 ## API文档

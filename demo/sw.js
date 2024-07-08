@@ -1,1 +1,1 @@
-self.importScripts('https://cdn.jsdelivr.net/npm/cdnbye-file@latest/dist/file-proxy.js')
+self.importScripts('https://cdn.jsdelivr.net/npm/@swarmcloud/file/file-proxy.js')
