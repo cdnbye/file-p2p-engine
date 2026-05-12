@@ -1,6 +1,6 @@
 {
   "name": "cdnbye-file",
-  "version": "0.5.5",
+  "version": "0.6.1",
   "description": "Let your viewers become your unlimitedly scalable CDN.",
   "main": "./dist/file-p2p-engine.min.js",
   "types": "./dist/file-p2p-engine.min.d.ts",
